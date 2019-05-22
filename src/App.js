@@ -5,12 +5,15 @@ import Image from './photo.jpg';
 import Image1 from './ins.png';
 import Image2 from './email.png';
 import { Timeline } from 'antd';
+<<<<<<< HEAD
 import pharmacu from './pharmacu1.png';
 import ss1 from './ss1.png';
 import ss2 from './ss2.png';
 import ss3 from './ss3.png';
 import ss4 from './ss4.png';
 
+=======
+>>>>>>> af10d189fd59478863a68f9c3c7a8f906ae1df50
 
 
 
@@ -28,19 +31,30 @@ function App() {
 
   <div>
   <Layout>
+<<<<<<< HEAD
       <Header id="Header">Joyce's Portfolio 1.0.0           <img src={Image} ></img></Header>
+=======
+      <Header id="Header">Joyce's Portfolio 1.0.0</Header>
+>>>>>>> af10d189fd59478863a68f9c3c7a8f906ae1df50
       <Layout>
         <Content id="Content">
           <h1> Hi! </h1>
           <p className="p1"> 
+<<<<<<< HEAD
           My name is Yayuan Zheng, and I am currently studying in NYU Shanghai. I love drawing and design. <br>
           </br>I have been trying to use code to show my thoughts and to design. 
            <br></br>  <br></br>     
            
+=======
+          My name is Yayuan Zheng, and I am currently studying in NYU Shanghai. I love drawing, design, and musicals. I can also do a little coding. 
+           <br></br> <br></br>     
+           <img src={Image} ></img>
+>>>>>>> af10d189fd59478863a68f9c3c7a8f906ae1df50
           </p>
         
         <br></br>
         <br></br>
+<<<<<<< HEAD
         <p className="intro1">Here is my group project: PharmaCU.</p>
         <p className="intro2">Since the pharmacy process is slow and outdated becasue of long wait times, poor communication between all parties, 
         <br></br>and physical nature of the interaction.
@@ -89,6 +103,23 @@ function App() {
         Contact me <br></br>
         <img className="img1" src={Image1} ></img>ins: joyceyyyyyyyz<br></br>
         <img className="img2" src={Image2} ></img>Email: yz4867@nyu.edu</Sider>
+=======
+        <p className="intro1">Here are my works</p>
+        <div>
+  <Timeline>
+    <Timeline.Item>Create a services site 2015-09-01</Timeline.Item>
+    <Timeline.Item>Solve initial network problems 2015-09-01</Timeline.Item>
+    <Timeline.Item>Technical testing 2015-09-01</Timeline.Item>
+    <Timeline.Item>Network problems being solved 2015-09-01</Timeline.Item>
+  </Timeline>,
+
+);
+</div>
+        <img className="img1" src={Image1} ></img>ins: joyceyyyyyyyz<br></br>
+        <img className="img2" src={Image2} ></img>Email: yz4867@nyu.edu
+        </Content>
+        <Sider id="sider">Sider</Sider>
+>>>>>>> af10d189fd59478863a68f9c3c7a8f906ae1df50
       </Layout>
       <Footer id="Footer">
       
